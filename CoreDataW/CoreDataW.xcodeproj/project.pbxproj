@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		014E3B622CA840AA001253DB /* CoreDataWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E3B612CA840AA001253DB /* CoreDataWApp.swift */; };
-		014E3B642CA840AA001253DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E3B632CA840AA001253DB /* ContentView.swift */; };
+		014E3B642CA840AA001253DB /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014E3B632CA840AA001253DB /* CoreDataBootCamp.swift */; };
 		014E3B662CA840AC001253DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014E3B652CA840AC001253DB /* Assets.xcassets */; };
 		014E3B692CA840AC001253DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014E3B682CA840AC001253DB /* Preview Assets.xcassets */; };
+		014E3B712CA850E6001253DB /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 014E3B6F2CA850E6001253DB /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		014E3B5E2CA840AA001253DB /* CoreDataW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014E3B612CA840AA001253DB /* CoreDataWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataWApp.swift; sourceTree = "<group>"; };
-		014E3B632CA840AA001253DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		014E3B632CA840AA001253DB /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
 		014E3B652CA840AC001253DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014E3B682CA840AC001253DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		014E3B702CA850E6001253DB /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				014E3B612CA840AA001253DB /* CoreDataWApp.swift */,
-				014E3B632CA840AA001253DB /* ContentView.swift */,
+				014E3B632CA840AA001253DB /* CoreDataBootCamp.swift */,
 				014E3B652CA840AC001253DB /* Assets.xcassets */,
 				014E3B672CA840AC001253DB /* Preview Content */,
+				014E3B6F2CA850E6001253DB /* FruitsContainer.xcdatamodeld */,
 			);
 			path = CoreDataW;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014E3B642CA840AA001253DB /* ContentView.swift in Sources */,
+				014E3B712CA850E6001253DB /* FruitsContainer.xcdatamodeld in Sources */,
+				014E3B642CA840AA001253DB /* CoreDataBootCamp.swift in Sources */,
 				014E3B622CA840AA001253DB /* CoreDataWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +346,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		014E3B6F2CA850E6001253DB /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				014E3B702CA850E6001253DB /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 014E3B702CA850E6001253DB /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = /Users/madinavalieva/Desktop/CoreData/CoreDataW/CoreDataW/FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 014E3B562CA840AA001253DB /* Project object */;
 }

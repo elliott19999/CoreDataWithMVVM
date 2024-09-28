@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  CoreData
+//  CoreDataW
 //
 //  Created by Мадина Валиева on 28.09.2024.
 //
